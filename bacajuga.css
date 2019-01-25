@@ -1,3 +1,5 @@
+  <style>
+
 /* kotaklink Mulai*/
 .kotaklink {background: rgb(246, 247, 249);
     border-top: 7px solid #219FDE;border-bottom: 2px solid #219FDE; /* tebal dan warna garis*/
@@ -31,3 +33,4 @@
     -webkit-animation:bounceright .3s alternate ease infinite;
     animation:bounceright .3s alternate ease infinite}/* Pengaturan huruf dalam kotak*/
 /* kotaklink Selesai*/
+</style>
