@@ -33,14 +33,6 @@
 .note.taupe {background:#999868;}
 .note.taupe:before {border-color:#fff #fff #BDBB8B #BDBB8B; background:#BDBB8B;}
 
-/* ROUNDED CORNERS VERSION
- * All modern browsers can produce this effect with a single pseudo-element.
- * However, they all have bugs (mainly to do with border-radius) that make this a bit tricky.
- * As far as I can tell, this is the only cross-browser method for the moment.
- * Can't use this method for the simple effect because Opera 11 will only show backgrounds
- * through transparent borders if there is a border-radius applied.
- */
- 
 .note.rounded {
     -webkit-border-radius:5px;
     -moz-border-radius:5px;
@@ -54,6 +46,3 @@
     -moz-border-radius:0 0 0 5px;
     border-radius:0 0 0 5px;
 }
-
-.note p {margin:0;}
-.note p + p {margin:1.5em 0 0;}
