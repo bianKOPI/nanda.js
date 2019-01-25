@@ -1,0 +1,33 @@
+/* kotaklink Mulai*/
+.kotaklink {background: rgb(246, 247, 249);
+    border-top: 7px solid #219FDE;border-bottom: 2px solid #219FDE; /* tebal dan warna garis*/
+    margin: 25px 20px 10px 20px;
+    padding: 5px 15px 0px 0;
+    position: relative;
+    color:#383838;}
+.kotaklink:before {display: block;border-radius: 5px;content: &quot;BACA JUGA&quot;; /* bisa diganti dengan kata yang anda sukai*/
+    text-align: center;
+    font-size: 16px;width: 130px;
+    font-weight: bold;background: #219fde;
+    position: absolute;
+    border: 2px solid #219fde;left: 25px;top: -20px; /* pengaturan posisi kotak atas*/
+    color: #fff;}
+.kotaklink cite {text-align: left;color: #999999;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;}
+.kotaklink cite:before {content: &quot;\2014 \2009&quot;;}/* costumisasi pada badian bullet*/
+.kotaklink ul {padding: 0 0 0 15px;}
+.kotaklink ul li {border-bottom:1px dashed #219FDE; /* posisi bullet*/
+    line-height:1.75em;
+    list-style:none;
+    padding: 0 0 0px;}
+.kotaklink a:visited {color: #585858;} /* warna link*/
+.kotaklink ul li:before{content:&#39;\f138&#39;;font-family:fontawesome;position:absolute; /* mengatur bullet dan animasi*/
+    margin:0 9px 0 -28px;
+    color:#219fde;overflow:hidden;
+    transition:all .3s}
+.kotaklink ul li:hover:before{content:&#39;\f138&#39;;font-family:fontawesome; 
+    -webkit-animation:bounceright .3s alternate ease infinite;
+    animation:bounceright .3s alternate ease infinite}/* Pengaturan huruf dalam kotak*/
+/* kotaklink Selesai*/
