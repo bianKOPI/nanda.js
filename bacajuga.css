@@ -7,7 +7,7 @@
     padding: 5px 15px 0px 0;
     position: relative;
     color:#383838;}
-.kotaklink:before {display: block;border-radius: 5px;content: "BACA JUGA"; /* bisa diganti dengan kata yang anda sukai*/
+.kotaklink:before {display: block;border-radius: 5px;content:"BACA JUGA"; /* bisa diganti dengan kata yang anda sukai*/
     text-align: center;
     font-size: 16px;width: 130px;
     font-weight: bold;background: #219fde;
